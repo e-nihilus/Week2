@@ -28,30 +28,42 @@ export class Library{
     }
 
 
-    public toString(): string{
-        let libro:string =  "";
-        for (let i=0; i< this.book.length ; i++){
-        libro +=  "\n" + "Libro" + (1 + i) + ":" + 
-        "Title - " + this.book[i].Title + "\n" + 
-        "Numer of Pages - " + this.book[i].Pages + "\n" + 
-        "ISBN - " + this.book[i].Isbn + "\n" + 
-        "Author - " + this.book[i].Author + "\n" + 
-        "Editorial -" + this.book[i].Editorial;
+    // public toString(): string{
+    //     let libro:string =  "";
+    //     for (let i=0; i< this.book.length ; i++){
+    //     libro +=  "\n" + "Libro" + (1 + i) + ":" + 
+    //     "Title - " + this.book[i].Title + "\n" + 
+    //     "Numer of Pages - " + this.book[i].Pages + "\n" + 
+    //     "ISBN - " + this.book[i].Isbn + "\n" + 
+    //     "Author - " + this.book[i].Author + "\n" + 
+    //     "Editorial -" + this.book[i].Editorial;
+    //     }
+    //     return libro
+    // }
+
+    public toString(): string {
+        let libro: string = "";
+        for (let i = 0; i < this.book.length; i++) {
+            libro += "\n" + "Libro" + (1 + i) + ":" + "\n" + this.book[i].toString();
         }
-        return libro
+        return libro;
     }
 
     public getNumberOfBooks():number{
         return this.book.length;
     }
 
-    public findByAuthor (author:string):Book[]{
-        let autor:Book[] = [];
-        for (let i=0; i< this.book.length ; i++){
-            if (this.book[i].Author == author){
-                autor.push(this.book[i]);
-            }
-        }
-        return autor
+    // public findByAuthor (author:string):Book[]{
+    //     let autor:Book[] = [];
+    //     for (let i=0; i< this.book.length ; i++){
+    //         if (this.book[i].Author == author){
+    //             autor.push(this.book[i]);
+    //         }
+    //     }
+    //     return autor
+    // }
+
+    public findByAuthor(author: string): Book[] {
+        return this.book.filter(book => book.Author === author);
     }
 }
