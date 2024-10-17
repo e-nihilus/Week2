@@ -1,7 +1,3 @@
-// 5. Realizar una función que te devuelva la suma del numero de caracteres de las palabras
-// almacenadas en un array.
-// La cabecera de la función tendrá el siguiente aspecto: function add(myWords)
-
 //Declaracion funciones
 function evenNumbers(num:number){
     for (let i=0;  i<=num; i++){
@@ -33,7 +29,7 @@ function isRainbow(colors: string[]){
   
 }
 
-function add(myWords: string[]):number{
+export function add(myWords: string[]):number{
     let sumPal: number = 0;
     for ( let i=0; i<myWords.length; i++){
         sumPal += myWords[i].length;
@@ -43,22 +39,22 @@ function add(myWords: string[]):number{
 
 //Cuerpo
 
-console.log("----------Reto1----------");
+// console.log("----------Reto1----------");
 
-evenNumbers(10)
+// evenNumbers(10)
 
-console.log("----------Reto2----------");
+// console.log("----------Reto2----------");
 
-let myArr: string[] = ["Hola", "que", "tal", "estas", "?"]
+// let myArr: string[] = ["Hola", "que", "tal", "estas", "?"]
 
-console.log(myRevert(myArr));
+// console.log(myRevert(myArr));
 
-console.log("----------Reto3----------");
+// console.log("----------Reto3----------");
 
-let colors: string[] = ["rojo", "verde", "negro", "blanco", "azul"]
-isRainbow(colors);
+// let colors: string[] = ["rojo", "verde", "negro", "blanco", "azul"]
+// isRainbow(colors);
 
-console.log("----------Reto4----------");
+// console.log("----------Reto4----------");
 
-console.log(add(myArr))
+// console.log(add(myArr))
 
