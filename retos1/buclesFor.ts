@@ -38,21 +38,23 @@ export function add(myWords: string[]):number{
 
 //Cuerpo
 
-// console.log("----------Reto1 bucles----------");
+// console.log("----------Reto1----------");
 
 // evenNumbers(10)
 
-// console.log("----------Reto2 bucles----------");
+// console.log("----------Reto2----------");
 
 // let myArr: string[] = ["Hola", "que", "tal", "estas", "?"]
 
 // console.log(myRevert(myArr));
 
-// console.log("----------Reto3 bucles(comentado por error con .includes----------");
+// console.log("----------Reto3----------");
 
 // let colors: string[] = ["rojo", "verde", "negro", "blanco", "azul"]
 // isRainbow(colors);
 
-// console.log("----------Reto4 bucles----------");
+// console.log("----------Reto4----------");
+
+// console.log(add(myArr))
 
 // console.log(add(myArr))

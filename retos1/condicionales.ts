@@ -130,14 +130,14 @@ export function isEven(number:number){
 
 //Cuerpo
 
-// console.log("----------Reto1 condicionales----------");
+// console.log("----------Reto1----------");
 
 // console.log(zodiac(8, 1));
 
-// console.log("----------Reto2 condicionales----------");
+// console.log("----------Reto2----------");
 
 // continent("España");
 
-// console.log("----------Reto3 condicionales----------");
+// console.log("----------Reto3----------");
 
 // isEven(333);
