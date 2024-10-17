@@ -119,7 +119,7 @@ function  continent(country: string){
     }
 }
 
-function isEven(number:number){
+export function isEven(number:number){
     if  (number % 2 === 0){
         console.log("El numero es par");
     }
@@ -130,14 +130,14 @@ function isEven(number:number){
 
 //Cuerpo
 
-console.log("----------Reto1----------");
+// console.log("----------Reto1 condicionales----------");
 
-console.log(zodiac(8, 1));
+// console.log(zodiac(8, 1));
 
-console.log("----------Reto2----------");
+// console.log("----------Reto2 condicionales----------");
 
-continent("España");
+// continent("España");
 
-console.log("----------Reto3----------");
+// console.log("----------Reto3 condicionales----------");
 
-isEven(333);
+// isEven(333);
