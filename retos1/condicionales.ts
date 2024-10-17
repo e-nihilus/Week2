@@ -128,6 +128,8 @@ function isEven(number:number){
     }
 }
 
+//Cuerpo
+
 console.log("----------Reto1----------");
 
 console.log(zodiac(8, 1));
@@ -139,8 +141,3 @@ continent("España");
 console.log("----------Reto3----------");
 
 isEven(333);
-
-
-
-
-

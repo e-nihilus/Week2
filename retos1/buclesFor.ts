@@ -41,6 +41,8 @@ function add(myWords: string[]):number{
     return sumPal;
 }
 
+//Cuerpo
+
 console.log("----------Reto1----------");
 
 evenNumbers(10)
@@ -59,3 +61,4 @@ isRainbow(colors);
 console.log("----------Reto4----------");
 
 console.log(add(myArr))
+
