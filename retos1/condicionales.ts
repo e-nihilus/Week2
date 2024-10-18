@@ -1,7 +1,7 @@
 //Declaracion de funciones
 function zodiac(day: number, month: number): string {
     let sign: string = "";
-    if (month === 1) {
+    if (month === 1 && day>=20) {
         if (day>=20){
             sign = "Acuario"
         }
@@ -104,18 +104,20 @@ function zodiac(day: number, month: number): string {
 }
 
 function  continent(country: string){
-    let continentes = {
-        "Africa": ["Egipto", "Sudáfrica", "Tanzania","Marruecos", "Nigeria"],
-        "Asia": ["China", "India", "Japón", "Corea del Sur", "Indonesia"],
-        "Europa":  ["España", "Francia", "Alemania", "Italia", "Reino Unido"],
-        "Norteamérica": ["Estados Unidos", "Canadá", "México", "Cuba", "Costa Rica"],
-        "Suramerica":  ["Brasil", "Argentina", "Chile", "Perú", "Colombia"],
-        "Oceanía": ["Australia", "Nueva Zelanda", "Fiyi"]
+    if (country  === "España" || country === "Italia" || country === "Francia" || country === "Alemania"){
+        console.log("Europa");
     }
-    for (let conti in continentes){
-        if (continentes[conti].includes(country)){
-            console.log(conti);
-        }
+    if (country  === "China" || country === "Japon" || country === "Mongolia" || country === "India"){
+        console.log("Asia");
+    }
+    if (country  === "Egipto" || country === "Dubai" || country === "Tunez" || country === "Sudafrica"){
+        console.log("Africa");
+    }
+    if (country  === "Eustados Unidos" || country === "Canada" || country === "Argentina" || country === "Mexico"){
+        console.log("America");
+    }
+    if (country  === "Australia" || country === "Nueva Zelanda" || country === "Fiyi" || country === "Samoa"){
+        console.log("Oceania");
     }
 }
 
