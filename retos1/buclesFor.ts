@@ -15,18 +15,35 @@ function  myRevert(myArr:string[]):string[]{
     return revertA;
 }
 
-function isRainbow(colors: string[]){
-    let rainbow: string[] = ["rojo", "naranja", "amarillo", "verde","azul", "andigo", "violeta"];
-
-    for (let i = 0; i < colors.length; i++){
-        if (rainbow.includes(colors[i])){
-            console.log(colors[i] + " está en el arcoiris");
-        }
-        else{
-            console.log(colors[i] + " no está en el arcoiris");
-        }
+function isRainbow(colors: string[]): void {
+    for (let color of colors) {
+      if (color === 'rojo') {
+        console .log(color + " está en el arcoíris.");
+      }
+      else if (color === 'naranja') {
+        console.log(color + " está en el arcoíris.");
+      }
+      else if (color === 'amarillo') {
+        console.log(color + " está en el arcoíris.");
+      }
+      else if (color === 'verde') {
+        console.log(color + " está en el arcoíris.");
+      }
+      else if (color === 'azul') {
+        console.log(color + " está en el arcoíris.");
+      }
+      else if (color === 'añil') {
+        console.log(color + " está en el arcoíris.");
+      }
+      else if (color === 'violeta') {
+        console.log(color + " está en el arcoíris.");
+      }
+      else {
+        console.log(color + " no está en el arcoíris.");
+      }
     }
-}
+  }
+ 
 
 export function add(myWords: string[]):number{
     let sumPal: number = 0;
