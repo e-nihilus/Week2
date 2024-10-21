@@ -1,7 +1,3 @@
-// 3. Realizar una función que reciba un array de nombres y te devuelva verdadero si y solo si
-// todos los nombres empiezan por M.
-// La cabecera tendrá el siguiente aspecto: function startWithM(myNames):boolean
-
 function hasEven(myNums):boolean{
 let i:number =0;
 
