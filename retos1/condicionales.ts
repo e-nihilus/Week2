@@ -107,16 +107,16 @@ function  continent(country: string){
     if (country  === "España" || country === "Italia" || country === "Francia" || country === "Alemania"){
         console.log("Europa");
     }
-    if (country  === "China" || country === "Japon" || country === "Mongolia" || country === "India"){
+    else if (country  === "China" || country === "Japon" || country === "Mongolia" || country === "India"){
         console.log("Asia");
     }
-    if (country  === "Egipto" || country === "Dubai" || country === "Tunez" || country === "Sudafrica"){
+    else if (country  === "Egipto" || country === "Dubai" || country === "Tunez" || country === "Sudafrica"){
         console.log("Africa");
     }
-    if (country  === "Eustados Unidos" || country === "Canada" || country === "Argentina" || country === "Mexico"){
+    else if (country  === "Eustados Unidos" || country === "Canada" || country === "Argentina" || country === "Mexico"){
         console.log("America");
     }
-    if (country  === "Australia" || country === "Nueva Zelanda" || country === "Fiyi" || country === "Samoa"){
+    else if (country  === "Australia" || country === "Nueva Zelanda" || country === "Fiyi" || country === "Samoa"){
         console.log("Oceania");
     }
  }
