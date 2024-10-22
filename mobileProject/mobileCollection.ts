@@ -33,4 +33,10 @@ export class MobileCollection{
         }
         return total;
     }
+
+    public printCollection(){
+        
+        this.mobiles.forEach(mobiles => mobiles.printAll());
+        console.log ("Price overall: " + this.totalPrice);
+    }
 }

@@ -10,10 +10,14 @@ let arrayC:Mobile[] = [mobil1, mobil2, mobil3, mobil4];
 
 let myCollection:MobileCollection = new MobileCollection(arrayC);
 
-console.log(myCollection.Mobiles);
+// console.log(myCollection.Mobiles);
 
-myCollection.Mobiles = arrayC
+// myCollection.Mobiles = arrayC
 
-console.log(myCollection.Mobiles);
-console.log(myCollection.TotalPrice);
+// console.log(myCollection.Mobiles);
+// //---------------Reto2
+// console.log(myCollection.TotalPrice);
 
+//-------------Reto 3
+
+myCollection.printCollection();

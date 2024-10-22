@@ -52,10 +52,10 @@ export class Mobile{
     }
 
     public printAll(){
-        console.log("Name: " + this.name);
+        console.log("Name:   " + this.name);
         console.log("Trademark: " + this.trademark);
-        console.log("Model: " + this.model);
-        console.log("Color: " + this.color);
-        console.log("Price: " + this.price + "\n");
+        console.log("Model:   " + this.model);
+        console.log("Color:   " + this.color);
+        console.log("Price:   " + this.price + "\n");
     }
 }
