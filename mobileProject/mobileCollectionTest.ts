@@ -8,13 +8,11 @@ let mobil4:Mobile = new Mobile("Huawei", "Huawei", "P30",  "negro", 699);
 
 let arrayC:Mobile[] = [mobil1, mobil2, mobil3, mobil4];
 
-let myCollection:MobileCollection = new MobileCollection(arrayC, 1000);
+let myCollection:MobileCollection = new MobileCollection(arrayC);
 
 console.log(myCollection.Mobiles);
-console.log(myCollection.TotalPrice);
 
 myCollection.Mobiles = arrayC
-myCollection.TotalPrice = 3000;
 
 console.log(myCollection.Mobiles);
 console.log(myCollection.TotalPrice);
