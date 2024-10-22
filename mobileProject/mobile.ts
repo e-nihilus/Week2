@@ -1,19 +1,3 @@
-// • name: string
-// • trademark: string
-// • model: string
-// • color: string
-// • price: number
-
-// 2. El constructor de la clase debe tener los mismos parámetros de entrada que atributos.
-
-// 3. Crear los métodos setters y getters para todos los atributos de la clase.
-
-// 4. En otro fichero denominado mobileTest.ts importar la clase Mobile.
-
-// 5. Crear un nuevo objeto myMobile de la clase Mobile, en el fichero mobileTest.ts, y probar
-// todos sus métodos.
-
-// 6. Subir los cambios a GitHub.
 export class Mobile{
     //atributos
     private name:string;
